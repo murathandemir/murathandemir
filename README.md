@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @murathandemir
-- 👀 I’m interested in C.
-- 🌱 I’m currently learning AI
+- 👀 I’m interested in mostly C.
+- 🌱 I’m currently learning about Embedded Systems
 - 📫 How to reach me : demirmhan@gmail.com
 
 <!---
