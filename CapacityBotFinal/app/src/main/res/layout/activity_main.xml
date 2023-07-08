@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#D38DDF"
+    >
+
+    <EditText
+        android:inputType="textCapCharacters"
+        android:lines="1"
+        android:id="@+id/lecture_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Lecture Code"
+        android:textColorHint="@color/black"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_above="@+id/CRN_get"
+        android:layout_marginBottom="15sp"
+        />
+
+
+    <EditText
+        android:inputType="number"
+        android:lines="1"
+        android:id="@+id/CRN_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_above="@+id/run_button"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="15sp"
+        android:hint="Enter CRN"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/run_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#26c13b"
+        android:clickable="true"
+        android:onClick="run_clicked"
+        android:paddingLeft="15sp"
+        android:paddingTop="10dp"
+        android:paddingRight="15sp"
+        android:paddingBottom="10dp"
+        android:text="RUN THE BOT"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/total_text"
+        android:layout_marginTop="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Capacity Will Appear There"
+        android:layout_below="@+id/run_button"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+
+    <TextView
+        android:id="@+id/filled_text"
+        android:layout_marginTop="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filled Capacity Will Appear There"
+        android:layout_below="@+id/total_text"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+
+    <TextView
+        android:id="@+id/free_text"
+        android:layout_marginTop="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Free Capacity Will Appear There"
+        android:layout_below="@+id/filled_text"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>

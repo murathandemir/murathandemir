@@ -1,0 +1,8 @@
+Path (Prague London): Prague -> Helsinki -> Tokyo -> Jakarta -> Beijing -> London
+Distance: 27609 km
+Path (London London): London -> Tokyo -> Jakarta -> Beijing -> London
+Distance: 28096 km
+Path (London Prague): Path not found
+Distance: Path not found
+Path (NewYork Jakarta): NewYork -> London -> Tokyo -> Jakarta
+Distance: 20915 km
