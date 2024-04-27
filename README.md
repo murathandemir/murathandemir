@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @murathandemir
-- 👀 I’m interested in mostly C.
-- 🌱 I’m currently learning about Embedded Systems
-- 📫 How to reach me : demirmhan@gmail.com
+- 👀 I’m interested in mostly C, Python.
+- 🌱 I’m currently learning about Signal Processing
+- 📫 How to reach me : demirmu21@itu.edu.tr
 
 <!---
 murathandemir/murathandemir is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
